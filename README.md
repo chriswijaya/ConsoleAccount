@@ -25,7 +25,7 @@ The data that after calculation would be stored under:
 
 ### Previews
 ##### Main menu
-![Main Menu Screen](https://github.com/chriswijaya/ConsoleAccount/blob/master/images/OutstandingBillScreen.png)
+![Main Menu Screen](https://github.com/chriswijaya/ConsoleAccount/blob/master/images/Main-menu.png)
 
 ##### Checked bill due and paid times screen (Option[1])
 ![Outstanding Bill Screen](https://github.com/chriswijaya/ConsoleAccount/blob/master/images/OutstandingBillScreen.png)
