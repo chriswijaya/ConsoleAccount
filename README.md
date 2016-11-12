@@ -1,5 +1,5 @@
 # ConsoleAccount
-Tenants and bills payment checker for CBA account dump file
+Bill payment check tool for CBA account dump
 
 ### Bit of story
 I had to manage rent transfer between us, me and my housemates, and the property agent. My housemates use to do a weekly or monthly transfer to my account before I transfer the money to the property agent. This little tool is built as a fun project to check how many transfers are required and how many transfers are done to date from a given start date indicator.
@@ -7,12 +7,12 @@ I had to manage rent transfer between us, me and my housemates, and the property
 ### Requirements
 - C# .Net, little bit knowledge of LINQ, SQL Server database (I am using 2014 version)
 - A few tables as described in BillPayment DBML
-- A table that contain CBA transaction which I imported to a table every now and then. I don't know for different kind of account
+- A transaction table which I imported the CBA dump file into every now and then
 
 ##### BillPayment DBML
 ![Bill Payment DBML](https://github.com/chriswijaya/ConsoleAccount/blob/master/images/BillPayment-DBML.PNG)
 
-### Notes
+#### Notes
 - Database structure is strict, but out of scope for this code
 - CBA dump file can be retrieved from your online account
 
@@ -22,6 +22,10 @@ The data that after calculation would be stored under:
 
 1. DataReader.PayDetails -> this stores how many times bill has due and paid by my mates
 2. DataReader.Payments[name] -> stores all transfers for that bill for that person
+
+### How it works
+The DataReader class will filter transactions based on different tenants and amount of transcation of that tenant bills.
+A tenant can have more than one bill record that is mapped into the BillPayment table.
 
 ### Previews
 ##### Main menu
