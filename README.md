@@ -8,7 +8,8 @@ I had to manage rent transfer among myself, my housemates, and the property agen
 - C# .Net, little bit knowledge of LINQ, SQL Server database (I am using 2014 version)
 - A few tables as described in BillPayment DBML
 - A transaction table which I imported the CBA dump file into every now and then
-- Related DBMLs to the tables in preview 
+- Related DBML to the tables in the preview
+- Another DBML related to the CBA transaction dump table
 
 ##### BillPayment DBML
 ![Bill Payment DBML](https://github.com/chriswijaya/ConsoleAccount/blob/master/images/BillPayment-DBML.PNG)
