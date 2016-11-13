@@ -2,7 +2,7 @@
 Bill payment check tool for CBA account dump
 
 ### Bit of story
-I had to manage rent transfer between myself, my housemates, and the property agent. My housemates use to do a weekly and monthly transfer to my account before I transfer the money to the property agent. This little tool is built as a fun project to check how many transfers are required and how many transfers are done to date from a given start date indicator.
+I had to manage rent transfer among myself, my housemates, and the property agent. My housemates use to do a weekly and monthly transfer to my account before I transfer the money to the property agent. This little tool is built as a fun project to check how many transfers are required and how many transfers are done to date from a given start date indicator.
 
 ### Requirements
 - C# .Net, little bit knowledge of LINQ, SQL Server database (I am using 2014 version)
